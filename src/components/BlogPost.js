@@ -11,6 +11,9 @@ function BlogPost() {
       <Comment commentText="Truth is singular. Its ‘versions’ are mistruths. - Sonmi-451" />
     </div>
   );
+  function BlogContent(props) {
+    return <div>{props.articleText}</div>;
+  }
 }
 
 export default BlogPost;
